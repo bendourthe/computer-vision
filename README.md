@@ -1,19 +1,9 @@
-# Computer vision projects (Python)
+# Computer vision
 
-__
-## Curv motion capture
+## This repository includes a few custom codes written to address some specific projects* requiring the use of Computer Vision.
 
-#### Definition
-This folder gathers a few computer vision algorithms written to allow the automated detection of body landmarks on 2D videos (i.e. marker-less motion capture).
+### Click on the corresponding language folder for more details about its content.
 
-#### Content
-    
-| Code | Definition  |
-| ---- |-------------|
-| img\_annotation.py | Allow the manual annotation of body landmarks by importing a data set of 2D images of people running (for validation of the automated algorithm) |
+*_e.g. image landmark labeling_
 
-#### Example
-
-Screenshot of the img_annotation code in use. TEach red cross indicates a landmarks manually selected. he algorithm loops on the data set chosen and the correspoding 2D coordinates of each landmarks will then be saved and exported in a csv file.
-
-![Alt text](curv-motion-capture/img/img_annotation_example.jpg "Output sample")
+Note: content currently under construction
