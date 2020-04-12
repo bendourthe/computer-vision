@@ -14,6 +14,6 @@ This folder gathers a few computer vision algorithms written to allow the automa
 
 #### Example
 
-Screenshot of the img_annotation code in use. TEach red cross indicates a landmarks manually selected. he algorithm loops on the data set chosen and the correspoding 2D coordinates of each landmarks will then be saved and exported in a csv file.
+Screenshot of the img_annotation code in use. Each red cross indicates a landmarks manually selected. The algorithm loops on the data set chosen and the correspoding 2D coordinates of each landmarks will then be saved and exported in a csv file.
 
 ![Alt text](curv-motion-capture/img/img_annotation_example.jpg "Output sample")
