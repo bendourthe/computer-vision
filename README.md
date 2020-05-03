@@ -6,7 +6,7 @@ ___
 
 # Computer vision
 
-## This repository contains a few custom codes written to address some specific projects* requiring the use of Computer Vision.
+## This repository contains custom codes written to address specific projects* requiring the use of Computer Vision.
 
 ### Click on the corresponding language folder for more details about its content.
 

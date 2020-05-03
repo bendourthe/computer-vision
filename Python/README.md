@@ -10,7 +10,7 @@ __
 ## Curv motion capture
 
 #### Definition
-This folder gathers a few computer vision algorithms written to allow the automated detection of body landmarks on 2D videos (i.e. marker-less motion capture).
+This folder contains a computer vision algorithm written to allow the automated detection of body landmarks on 2D videos (i.e. marker-less motion capture).
 
 #### Content
     
