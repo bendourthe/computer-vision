@@ -8,7 +8,7 @@ ___
 
 ___
 ## Objective
-Build a function enabling the automated detection of faces on images and videos using the fonctionality of Haar cascades.
+Build a function enabling the automated detection of faces on images and videos using the functionality of Haar cascades.
 
 ___
 ## Background
