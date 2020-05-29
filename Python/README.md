@@ -8,6 +8,9 @@ ___
 
 ## REPOSITORY CONTENT
 
+### Cascade face detection
+This folder contains a notebook implementing the functionality of the Haar cascades for automated facial detection on images and videos.
+
 ### Curv motion capture
 This folder contains a script enabling the manual selection of landmarks on images (consulting project).
 
