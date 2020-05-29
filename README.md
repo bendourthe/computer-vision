@@ -6,10 +6,6 @@ ___
 
 # Computer vision
 
-## This repository contains custom codes written to address specific projects* requiring the use of Computer Vision.
+## This repository contains custom codes and notebook written to address specific projects requiring the use of Computer Vision.
 
 ### Click on the corresponding language folder for more details about its content.
-
-*_e.g. image landmark labeling_
-
-Note: content currently under construction

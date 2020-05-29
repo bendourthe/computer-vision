@@ -4,22 +4,14 @@ ___
 ___
 <center><em>For more information, visit <a href='http://www.dourthe.tech'>www.dourthe.tech</a></em></center>
 
-# Computer vision projects (Python)
+# Computer Vision projects (Python)
 
-__
-## Curv motion capture
+## REPOSITORY CONTENT
 
-#### Definition
-This folder contains a computer vision algorithm written to allow the automated detection of body landmarks on 2D videos (i.e. marker-less motion capture).
+### Curv motion capture
+This folder contains a script enabling the manual selection of landmarks on images (consulting project).
 
-#### Content
-    
-| Code | Definition  |
-| ---- |-------------|
-| img\_annotation.py | Allow the manual annotation of body landmarks by importing a data set of 2D images of people running (for validation of the automated algorithm) |
+### Watershed image segmentation
+This folder contains a notebook implementing the functionality of the Watershed algorithm, enabling the semi-automated segmentation of images.
 
-#### Example
 
-Screenshot of the img_annotation code in use. Each red cross indicates a landmarks manually selected. The algorithm loops on the data set chosen and the correspoding 2D coordinates of each landmarks will then be saved and exported in a csv file.
-
-![Alt text](curv-motion-capture/img/img_annotation_example.jpg "Output sample")
