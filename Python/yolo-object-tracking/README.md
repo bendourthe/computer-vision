@@ -35,7 +35,17 @@ In order to use the YOLO algorithm and its pre-trained weights on the COCO datas
 
 ___
 ## Algorithm preview
-The algorithm allows 
+The algorithm will result in images where each identified object will be contoured by a rectangle, around which the corresponding object label and probability will be displayed.
+
+**Example on single images**
+<img src="img/image_example_1.png" alt="Drawing" style="width: 500px;"/>
+<img src="img/image_example_2.png" alt="Drawing" style="width: 500px;"/>
+<img src="img/image_example_3.png" alt="Drawing" style="width: 500px;"/>
+<img src="img/image_example_4.png" alt="Drawing" style="width: 500px;"/>
+
+**Example on videos (screenshots from processed videos)**
+<img src="img/living_room_example.jpg" alt="Drawing" style="width: 1000px;"/>
+<img src="img/rainy_street_example.jpg" alt="Drawing" style="width: 1000px;"/>
 
 ___
 ## Libraries Imports
@@ -255,8 +265,6 @@ def apply_yolo_img(img):
 ```python
 rand_idx = np.random.randint(0,len(images),6)
 
-plt.figure(figsize=(18,10))
-
 for idx in rand_idx:
     
     img = cv2.imread('data/image-samples/' + images[idx])
@@ -269,7 +277,6 @@ for idx in rand_idx:
     
 
 
-    <Figure size 1296x720 with 0 Axes>
 
 
 
@@ -406,35 +413,29 @@ def apply_yolo_vid(video, model, list_of_classes):
 
     vid_save.release()
     cap.release()
-       
+    
+    clear_output()
+    print('VIDEO PROCESSING IN PROGRESS\t')
+    print('\tFilename:\t\t', video)
+    print('\tProcessing frame:\t', current_frame, '/', max_frame)
+    print('\tTime elasped:\t\t', el_time_hr, 'hrs', el_time_min, 'mins', el_time_sec, 'secs')
+    print('\tRemaining time: \t', rem_time_hr, 'hrs', rem_time_min, 'mins', rem_time_sec, 'secs')
     print('Total computation time:\t\t', el_time_hr, 'hrs', el_time_min, 'mins', el_time_sec, 'secs')
 ```
 
-**Finally, let's apply the YOLO model to one of the video samples.**
+**Finally, let's apply the YOLO model to a video.**
+
+_Note: processing videos can take a long time depending on your computer power._
 
 
 ```python
-apply_yolo_vid(videos[6], yolo, coco_classes)
+apply_yolo_vid(videos[4], yolo, coco_classes)
 ```
 
     VIDEO PROCESSING IN PROGRESS    
-        Filename:        Living room.mp4
-        Processing frame:    2 / 284
-        Time elasped:        0 hrs 4 mins 21 secs
-        Remaining time:      20 hrs 34 mins 36 secs
+        Filename:        Rainy street.mp4
+        Processing frame:    158 / 158
+        Time elasped:        2 hrs 40 mins 29 secs
+        Remaining time:      0 hrs 0 mins 39 secs
+    Total computation time:      2 hrs 40 mins 29 secs
     
-
-
-```python
-apply_yolo_vid(videos[7], yolo, coco_classes)
-```
-
-
-```python
-apply_yolo_vid(videos[0], yolo, coco_classes)
-```
-
-
-```python
-
-```
