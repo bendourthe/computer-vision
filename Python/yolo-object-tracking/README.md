@@ -38,12 +38,14 @@ ___
 The algorithm will result in images where each identified object will be contoured by a rectangle, around which the corresponding object label and probability will be displayed.
 
 **Example on single images**
+
 <img src="img/image_example_1.png" alt="Drawing" style="width: 500px;"/>
 <img src="img/image_example_2.png" alt="Drawing" style="width: 500px;"/>
 <img src="img/image_example_3.png" alt="Drawing" style="width: 500px;"/>
 <img src="img/image_example_4.png" alt="Drawing" style="width: 500px;"/>
 
 **Example on videos (screenshots from processed videos)**
+
 <img src="img/living_room_example.jpg" alt="Drawing" style="width: 1000px;"/>
 <img src="img/rainy_street_example.jpg" alt="Drawing" style="width: 1000px;"/>
 
