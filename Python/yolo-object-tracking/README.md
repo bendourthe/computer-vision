@@ -35,7 +35,7 @@ In order to use the YOLO algorithm and its pre-trained weights on the COCO datas
 
 ___
 ## Algorithm preview
-The algorithm will result in images where each identified object will be contoured by a rectangle, around which the corresponding object label and probability will be displayed.
+The algorithm results in images/videos where each identified object is contoured by a rectangle, around which the corresponding object label and probability is displayed.
 
 **Example on single images**
 
